@@ -2,7 +2,7 @@ import keys
 import requests
 import tweepy
 
-url = "https://api.darksky.net/forecast/a59d013b6ef7756f5b6215bfdd251440/-37.8136,144.9631?units=si"
+url = "https://api.darksky.net/forecast/"+keys.DARK_SKY+"/-37.8136,144.9631?units=si"
 data = requests.get(url).json()
 
 #depending on the temperature and if it's gonna rain, print that message
@@ -20,8 +20,8 @@ if(maxTemp) < 15 and (riskOfRain) < 0.5:
 
 #to expand on the printing of messages, should do like a randomiser bot Ai thing?
 #setting up tweepy and twitter bot
-account = tweepy.OAuthHandler(consumer_key, consumer_secret)
-account.set_access_token(access_token, access_secret)
+account = tweepy.OAuthHandler(keys.consumer_key, keys.consumer_secret)
+account.set_access_token(keys.access_token, keys.access_secret)
 bot = tweepy.API(account)
 
 bot.update_status(message)
