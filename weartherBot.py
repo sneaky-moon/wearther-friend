@@ -2,7 +2,7 @@ import keys
 import requests
 import tweepy
 
-url = "https://api.darksky.net/forecast/"+keys.dark_sky+"/-37.8136,144.9631?units=si"
+url = ("https://api.darksky.net/forecast/""+keys.dark_sky+""/-37.8136,144.9631?units=si")
 data = requests.get(url).json()
 
 #depending on the temperature and if it's gonna rain, print that message
