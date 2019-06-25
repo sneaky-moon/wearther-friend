@@ -1,4 +1,7 @@
 import emoji
+import keys
+import requests
+import tweepy
 
 account = tweepy.OAuthHandler(keys.consumer_key, keys.consumer_secret)
 account.set_access_token(keys.access_token, keys.access_secret)
