@@ -8,3 +8,4 @@ dressneutral= ['dress nice', 'dress clean', 'dress classy', 'dress comfortably',
 dresslight= ['dress lightly', 'dress cooly']
 neutralgreeting= ['have an awesome day!', 'have a nice day!', 'have a great day!', 'make the most of today!', 'enjoy your day']
 todayweather= ['Today\'s weather: ', 'The weather today: ', 'Melbourne today: ']
+emoji= ['\N{grinning face}', '\N{slightly smiling face}', '\N{grinning face with big eyes}', '\N{beaming face with smiling eyes}', '\N{smiling face}', '\N{grinning face with smiling eyes}', '\N{winking face}', '\N{smiling face with smiling eyes}', '\N{kissing face with closed eyes}']
