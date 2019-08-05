@@ -15,19 +15,19 @@ riskOfRain = data['daily']['data'][0]['precipProbability']
 summary = data['daily']['data'][0]['summary']
 
 if (maxTemp) < 15 and (riskOfRain) > 0.5:
-    message = random.choice(tweetGenerate.coldsfx) + ' ' + random.choice(tweetGenerate.coldword) + ' with a top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' of rain, so ' + random.choice(tweetGenerate.dresswarm) + ' and remember your umbrella!' + ' ' + random.choice(tweetGenerate.emoji)
+    message = random.choice(tweetGenerate.coldsfx) + ' ' + random.choice(tweetGenerate.coldword) + ' with a top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' chance of rain, so ' + random.choice(tweetGenerate.dresswarm) + ' and remember your umbrella!' + ' ' + random.choice(tweetGenerate.emoji)
 
 if (maxTemp) < 15 and (riskOfRain) < 0.5:
-    message = random.choice(tweetGenerate.coldsfx) + ' ' + random.choice(tweetGenerate.coldword) + ' with a top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' of rain, so ' + random.choice(tweetGenerate.dresswarm) + ' before you leave the house!' + ' ' + random.choice(tweetGenerate.emoji)
+    message = random.choice(tweetGenerate.coldsfx) + ' ' + random.choice(tweetGenerate.coldword) + ' with a top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' chance of rain, so ' + random.choice(tweetGenerate.dresswarm) + ' before you leave the house!' + ' ' + random.choice(tweetGenerate.emoji)
 
 if 15 < (maxTemp) < 25 and (riskOfRain) < 0.5:
-    message = random.choice(tweetGenerate.neutralsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' of rain, so ' + random.choice(tweetGenerate.dressneutral) + ' and ' + random.choice(tweetGenerate.neutralgreeting) + ' ' + random.choice(tweetGenerate.emoji)
+    message = random.choice(tweetGenerate.neutralsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' chance of rain, so ' + random.choice(tweetGenerate.dressneutral) + ' and ' + random.choice(tweetGenerate.neutralgreeting) + ' ' + random.choice(tweetGenerate.emoji)
 
 if 15 < (maxTemp) < 25 and (riskOfRain) > 0.5:
-    message = random.choice(tweetGenerate.neutralsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' of rain, so ' + random.choice(tweetGenerate.dressneutral) + ' and ' + ' and remember your umbrella!' + ' ' + random.choice(tweetGenerate.emoji)
+    message = random.choice(tweetGenerate.neutralsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' chance of rain, so ' + random.choice(tweetGenerate.dressneutral) + ' and ' + ' and remember your umbrella!' + ' ' + random.choice(tweetGenerate.emoji)
 
 if (maxTemp) > 25:
-    message = random.choice(tweetGenerate.hotsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' of rain, so ' + random.choice(tweetGenerate.dresslight) + ' and ' + 'protect yourself from the sun!' + ' ' + random.choice(tweetGenerate.emoji)
+    message = random.choice(tweetGenerate.hotsfx) + ' ' + random.choice(tweetGenerate.todayweather) + str(summary) + ' A top of ' + str((round(maxTemp))) + '°C and a ' + str((format(riskOfRain, ".0%"))) + ' chance of rain, so ' + random.choice(tweetGenerate.dresslight) + ' and ' + 'protect yourself from the sun!' + ' ' + random.choice(tweetGenerate.emoji)
 
 #setting up tweepy and twitter bot
 
