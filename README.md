@@ -6,10 +6,10 @@ Visit your friend [here](https://twitter.com/weartherfriend) 🌂
 
 ### Technologies
 
-[Tweepy](https://www.tweepy.org/)
+- [Tweepy](https://www.tweepy.org/)
 
-[Dark Sky API](https://darksky.net/dev)
+- [Dark Sky API](https://darksky.net/dev)
 
 ### References
 
-[A Brief Twitterbot How To](https://tutorials.botsfloor.com/a-brief-twitterbot-how-to-bb15b05a3226)
+- [A Brief Twitterbot How To](https://tutorials.botsfloor.com/a-brief-twitterbot-how-to-bb15b05a3226)
