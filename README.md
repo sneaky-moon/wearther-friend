@@ -1,4 +1,4 @@
-# weartherFriend
+# Wearther Friend
 
 A Twitter bot that tweets out the weather for Melbourne and tells you what to wear each day!
 
