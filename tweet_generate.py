@@ -1,0 +1,11 @@
+
+cold_sfx= ['Brrr!', 'It\'s biting cold!', 'There\'s a nip in the air today!', 'It\'s brass monkey weather!']
+neutral_sfx= ['Good Morning!', 'Top of the morning to you!', 'It\'s your Wearther Friend!']
+hot_sfx= ['That\'s blazin\'!', 'It\'s gonna be a scorcher!', 'So hot!', 'It\'s gonna be a warm one!']
+cold_word= ['It\'s gonna be a shivery one', 'Looks like a wintry one', 'It\'s a cold one', 'We\'ve got a frosty one', 'It\'s gonna be crisp', 'We\'ve got a chilly one']
+dress_warm= ['dress snug', 'dress warmly', 'dress toasty', 'chuck on a coat']
+dress_neutral= ['dress nice', 'dress clean', 'dress classy', 'dress comfortably', 'dress well', 'dress your best']
+dress_light= ['dress lightly', 'dress cooly']
+neutral_greeting= ['have an awesome day!', 'have a nice day!', 'have a great day!', 'make the most of today!', 'enjoy your day']
+today_weather= ['Today\'s weather: ', 'The weather today: ', 'Melbourne today: ']
+emoji= ['\U0001f603', '\U0001f604', '\U0001f600', '\U0001f601', '\U0001f606', '\U0001f642', '\U0001f643', '\U0001f609', '\U0001f60A', '\U0001f61A' ]
